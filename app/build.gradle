@@ -29,7 +29,6 @@ dependencies {
     compile ('io.socket:socket.io-client:0.8.3') {
         exclude group: 'org.json', module: 'json'
     }
-
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
